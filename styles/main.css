@@ -1,10 +1,10 @@
 #intro {
-  background: url("../img/panorama-3094696_1920.jpg") no-repeat center center;
+  background: url("../img/mundo.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .top-nav-collapse {
-  background-color: #3949ab !important;
+  background-color: #FF7C24 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -13,7 +13,7 @@
 
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background: #3949ab !important;
+    background: #FF7C24 !important;
   }
 }
 
@@ -23,9 +23,10 @@
 }
 
 .hm-gradient .full-bg-img {
-  background: rgba(42, 27, 161, 0.7);
-  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background:rgba(255, 124, 36, 0.7);
+  background: linear-gradient(45deg, rgba(255, 124, 36, 0.7), rgba(0, 0, 0, 0.7) 100%);
 }
+
 
 @media (max-width: 450px) {
   .margins {
