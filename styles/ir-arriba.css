@@ -92,18 +92,24 @@ Estilos generales final*/
 		height:6.6rem;
 	}
 }
-/*
-@media screen and (max-width:968px){
+
+@media screen and (max-width:991px){
 	.go-top-container{
-		position:fixed;
-		bottom:3rem;
-		right:3rem;
-		width:6.0rem;
-		height:6.0rem;
-		z-index:-1;
+		z-index:1;
+		width:20px;
+		height: 20px;
+	}
+	.go-top-button i{
+		position:absolute;
+		font-size:1.0rem;
+		top:40%;
+		left:50%;
+		transform:translate(-50%,-50%) scale(1);
+		color:#fff;
+		transition:0.2s;
 	}
 }
-
+/*
 @media screen and (max-width:768px){
 	.go-top-container{
 		position:fixed;
