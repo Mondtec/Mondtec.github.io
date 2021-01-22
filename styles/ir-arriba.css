@@ -1,0 +1,128 @@
+/*Estilos generales inicio
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+html{
+	font-size:10px;
+}
+header{
+	height:6rem;
+	background:#333;
+	padding:0 5rem;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	line-height:6rem;
+	color:#fff;
+	text-decoration:none;
+	font-size:2rem;
+	padding:0 1rem;
+}
+.container{
+	max-width:80rem;
+	margin:auto;
+	padding-top:4rem;
+}
+.container p{
+	font-size:2rem;
+	margin-bottom:2rem;
+}
+Estilos generales final*/
+
+/*Estilos del botón arriba INICIO*/
+
+.go-top-container{
+	position:fixed;
+	bottom:0.5rem;
+	right:1.2rem;
+	width:2.0rem;
+	height:2.0rem;
+	z-index:-1;
+}
+.go-top-button{
+	width:0rem;
+	height:0rem;
+	background:#2071b2;
+	border-radius:50%;
+	cursor:pointer;
+	transition:0.2s;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index:-1;
+}
+.go-top-button i{
+	position:absolute;
+	font-size:1.7rem;
+	top:48%;
+	left:50%;
+	transform:translate(-50%,-50%) scale(0);
+	color:#fff;
+	transition:0.2s;
+}
+
+.show{
+	z-index:10;
+}
+.show .go-top-button{
+	animation:popup .3s ease-in-out;
+	width:6.6rem;
+	height:6.6rem;
+	z-index:11;
+}
+.show i{
+	transform:translate(-50%,-50%)scale(1);
+}
+@keyframes popup{
+	0%{
+		width:0rem;
+		height:0rem;
+	}
+	50%{
+		width:8rem;
+		height:8rem;
+	}
+	100%{
+		width:6.6rem;
+		height:6.6rem;
+	}
+}
+/*
+@media screen and (max-width:968px){
+	.go-top-container{
+		position:fixed;
+		bottom:3rem;
+		right:3rem;
+		width:6.0rem;
+		height:6.0rem;
+		z-index:-1;
+	}
+}
+
+@media screen and (max-width:768px){
+	.go-top-container{
+		position:fixed;
+		bottom:2rem;
+		right:2rem;
+		width:5.6rem;
+		height:5.6rem;
+		z-index:-1;
+	}
+}
+@media screen and (max-width:450px){
+	.go-top-container{
+		position:fixed;
+		bottom:0rem;
+		right:1rem;
+		width:5.0rem;
+		height:5.0rem;
+		z-index:-1;
+	}
+}
+*/
+/*Estilos del botón arriba FINAL*/
