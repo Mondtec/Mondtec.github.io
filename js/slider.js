@@ -54,7 +54,7 @@ class CitiesSlider extends React.Component {
       React.createElement("h2", { className: "slider__slide-heading" },
       slide.city.split('').map(l => React.createElement("span", null, l))),
 
-      React.createElement("p", { className: "slider__slide-readmore" }, "Visita este sitio")),
+      React.createElement("a" ,{href: "http://tianguis-virtual-dos.mondtec.com"}, "Tianguis virtual",)),
 
       React.createElement("div", { className: "slider__slide-parts" },
       [...Array(this.IMAGE_PARTS).fill()].map((x, i) =>
