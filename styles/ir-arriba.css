@@ -96,17 +96,12 @@ Estilos generales final*/
 @media screen and (max-width:991px){
 	.go-top-container{
 		z-index:1;
-		width:20px;
-		height: 20px;
+		
+		width:0.7rem;
+		height:0.7rem;
 	}
-	.go-top-button i{
-		position:absolute;
-		font-size:1.0rem;
-		top:40%;
-		left:50%;
-		transform:translate(-50%,-50%) scale(1);
-		color:#fff;
-		transition:0.2s;
+	.go-top-button{
+		background-color: red;
 	}
 }
 /*
