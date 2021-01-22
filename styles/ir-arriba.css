@@ -92,19 +92,18 @@ Estilos generales final*/
 		height:6.6rem;
 	}
 }
-
+/*
 @media screen and (max-width:991px){
 	.go-top-container{
+		position:fixed;
+		bottom:8px;
+		right:19.2px;
+		width:10px;
+		height:10px;
 		z-index:1;
-		
-		width:0.7rem;
-		height:0.7rem;
-	}
-	.go-top-button{
-		background-color: red;
 	}
 }
-/*
+
 @media screen and (max-width:768px){
 	.go-top-container{
 		position:fixed;
