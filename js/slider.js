@@ -54,7 +54,7 @@ class CitiesSlider extends React.Component {
       React.createElement("h2", { className: "slider__slide-heading" },
       slide.city.split('').map(l => React.createElement("span", null, l))),
 
-      React.createElement("a" ,{href: "http://tianguis-virtual-dos.mondtec.com"}, "Tianguis virtual",)),
+      React.createElement("a" ,{href: "http://tianguis-virtual-dos.mondtec.com",target:"_blank"}, "Tianguis virtual",)),
 
       React.createElement("div", { className: "slider__slide-parts" },
       [...Array(this.IMAGE_PARTS).fill()].map((x, i) =>
@@ -75,28 +75,28 @@ class CitiesSlider extends React.Component {
 
 const slides = [
 {
-  city: 'Paris',
-  country: 'Tianguis Virtual',
-  img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg' },
+  city: 'Tianguis Virtual',
+  country: 'Visítalo',
+  img: 'https://c0.wallpaperflare.com/preview/906/808/845/hong-kong-computer-phone-technology.jpg' },
 
 /*{
   city: 'Singapore',
   img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg' },*/
 
 {
-  city: 'Prague',
-  country: 'Soporte técnico',
-  img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg' },
+  city: 'Soporte técnico',
+  country: 'Redes y base de datos',
+  img: 'https://wallpapercave.com/wp/wp2044697.jpg' },
 
 {
-  city: 'Amsterdam',
-  country: 'Apps móviles',
-  img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg' },
+  city: 'Apps móviles',
+  country: 'Android y iOS',
+  img: 'https://wallpapercave.com/wp/wp2347580.jpg' },
 
 {
-  city: 'Moscow',
+  city: 'A tu medida',
   country: 'Pólizas',
-  img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg' }];
+  img: 'https://marquesme.com/wp-content/uploads/2018/08/cloud-computing.jpg' }];
 
 
 
