@@ -96,7 +96,7 @@ const slides = [
 {
   city: 'A tu medida',
   country: 'Pólizas',
-  img: 'https://marquesme.com/wp-content/uploads/2018/08/cloud-computing.jpg' }];
+  img: 'https://media-private.canva.com/HUBEM/MAES91HUBEM/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4JWSMIDQ%2F20210222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210222T182213Z&X-Amz-Expires=50615&X-Amz-Signature=73208d4e0014e37b9cd9776cc2e2ff58ab61a46071074d53170eca6eba5ca6d1&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2023%20Feb%202021%2008%3A25%3A48%20GMT' }];
 
 
 
