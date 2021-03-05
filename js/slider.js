@@ -96,7 +96,7 @@ const slides = [
 {
   city: 'A tu medida',
   country: 'Pólizas',
-  img: 'https://media-private.canva.com/HUBEM/MAES91HUBEM/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4JWSMIDQ%2F20210303%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210303T182213Z&X-Amz-Expires=43415&X-Amz-Signature=c8c97a336a3be33d7947a1eff34fea54cfdf6e95fa4156addb13784a76e007c9&X-Amz-SignedHeaders=host&response-expires=Thu%2C%2004%20Mar%202021%2006%3A25%3A48%20GMT'}];
+  img: 'https://media-private.canva.com/QmEus/MAEX1DQmEus/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4JWSMIDQ%2F20210304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210304T143256Z&X-Amz-Expires=62253&X-Amz-Signature=2c1687b748d71112057f31c6e771b08d01627edd9af029bd4ca3f4864f8ad7a9&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2005%20Mar%202021%2007%3A50%3A29%20GMT'}];
 
 
 
