@@ -96,7 +96,7 @@ const slides = [
 {
   city: 'A tu medida',
   country: 'Pólizas',
-  img: 'http://www.mondtec.com/img/cloud.png'}];
+  img: 'http://www.mondtec.com/img/TianguisVirtual.jpg'}];
 
 
 
