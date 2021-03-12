@@ -77,21 +77,21 @@ const slides = [
 {
   city: 'Tianguis Virtual',
   country: 'Visítalo',
-  img: 'https://c0.wallpaperflare.com/preview/906/808/845/hong-kong-computer-phone-technology.jpg' },
+  img: 'http://www.mondtec.com/img/tianguis_virtual2.jpg' },
 
 /*{
   city: 'Singapore',
   img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg' },*/
 
 {
-  city: 'Soporte técnico',
-  country: 'Redes y base de datos',
-  img: 'https://wallpapercave.com/wp/wp2044697.jpg' },
+  city: 'Desarrollo',
+  country: 'Web',
+  img: 'http://www.mondtec.com/img/desarrollo_web.jpg' },
 
 {
   city: 'Apps móviles',
   country: 'Android y iOS',
-  img: 'https://wallpapercave.com/wp/wp2347580.jpg' },
+  img: 'http://www.mondtec.com/img/polizas.jpg },
 
 {
   city: 'A tu medida',
