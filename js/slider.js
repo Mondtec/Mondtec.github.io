@@ -91,7 +91,7 @@ const slides = [
 {
   city: 'Apps móviles',
   country: 'Android y iOS',
-  img: 'http://www.mondtec.com/img/polizas.jpg },
+  img: 'http://www.mondtec.com/img/polizas.jpg '},
 
 {
   city: 'A tu medida',
